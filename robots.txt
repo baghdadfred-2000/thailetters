@@ -1,0 +1,44 @@
+# robots.txt — https://thailetters.com/
+# ThaiLetters.com — free Thai alphabet flashcard trainer
+
+# Default: allow all crawlers to index public content
+User-agent: *
+Allow: /
+# working copy / duplicate of the homepage — do not index
+Disallow: /thai-trainer.html
+# avoid crawling any query-string duplicate URLs
+Disallow: /*?
+
+# Google's primary crawler (explicit)
+User-agent: Googlebot
+Allow: /
+Disallow: /thai-trainer.html
+Disallow: /*?
+
+# Google AdSense crawler — must be allowed for ads to serve
+User-agent: Mediapartners-Google
+Allow: /
+
+# Google's AI/Gemini training & grounding control — allowed (helps AI Overview citations)
+User-agent: Google-Extended
+Allow: /
+
+# Other AI search crawlers — allowed to support citation visibility
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Do not block CSS, JS, fonts, or images — Google needs them to render the page.
+
+Sitemap: https://thailetters.com/sitemap.xml

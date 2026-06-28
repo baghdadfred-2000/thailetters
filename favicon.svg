@@ -1,0 +1,8 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ThaiLetters.com">
+  <rect width="64" height="64" rx="14" fill="#1a2e2e"/>
+  <g fill="none" stroke="#f4ead5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="25" cy="29" r="7.5"/>
+    <path d="M33 22 q11 -3 10 13 v15"/>
+  </g>
+  <circle cx="43" cy="51" r="3.2" fill="#e6a23c"/>
+</svg>
