@@ -31,6 +31,24 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://thailetters.com/particles.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thailetters.com/time-dates-colors.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thailetters.com/classifiers.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://thailetters.com/about.html</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>yearly</changefreq>
