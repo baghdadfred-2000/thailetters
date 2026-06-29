@@ -732,6 +732,41 @@
     </div>
   </section>
 
+  <style>
+    .explore {
+      position: relative; z-index: 2;
+      max-width: 920px; margin: 0 auto; padding: 16px 24px 8px;
+    }
+    .explore h2 {
+      font-family: 'Fraunces', serif; font-weight: 500; font-size: 22px;
+      color: var(--ink); margin: 0 0 18px; text-align: center;
+    }
+    .explore-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px;
+    }
+    .explore-card {
+      display: flex; flex-direction: column; gap: 4px;
+      padding: 18px; border-radius: 14px;
+      background: rgba(0,0,0,0.2); border: 1px solid rgba(244,234,213,0.14);
+      text-decoration: none; transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+    }
+    .explore-card:hover { transform: translateY(-3px); border-color: var(--accent); background: rgba(0,0,0,0.3); }
+    .explore-card .ec-th { font-family: var(--thai-font); font-size: 26px; color: var(--accent); line-height: 1; }
+    .explore-card .ec-title { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 15px; color: var(--ink); margin-top: 6px; }
+    .explore-card .ec-desc { font-family: 'Bricolage Grotesque', sans-serif; font-size: 12.5px; color: var(--ink-dim); line-height: 1.45; }
+    @media (prefers-reduced-motion: reduce) { .explore-card { transition: none; } }
+  </style>
+
+  <nav class="explore" aria-label="Explore more references">
+    <h2>Explore more of ThaiLetters.com</h2>
+    <div class="explore-grid">
+      <a class="explore-card" href="alphabet.html"><span class="ec-th">อ</span><span class="ec-title">Alphabet Reference</span><span class="ec-desc">All 44 consonants &amp; every vowel, searchable</span></a>
+      <a class="explore-card" href="numbers.html"><span class="ec-th">๑</span><span class="ec-title">Numbers</span><span class="ec-desc">Counting, numerals &amp; a converter</span></a>
+      <a class="explore-card" href="tone-marks.html"><span class="ec-th">ก่</span><span class="ec-title">Tone Marks</span><span class="ec-desc">The four tones &amp; special symbols</span></a>
+      <a class="explore-card" href="write-thai.html"><span class="ec-th">ชื่อ</span><span class="ec-title">Write Your Name</span><span class="ec-desc">Your name in elegant Thai script</span></a>
+    </div>
+  </nav>
+
   <footer class="site-footer">
     <div class="sf-copy">&copy; 2026 Genext Information Systems. All rights reserved. V1.0</div>
     <nav class="sf-links" aria-label="Legal and site links">
